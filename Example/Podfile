@@ -7,6 +7,6 @@ end
 
 # Uncomment the following lines to add testing dependencies
 target "FoundationSafetyTests" do
-  pod 'Kiwi'
+  pod 'Kiwi/XCTest'
 end
 
