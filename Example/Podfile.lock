@@ -1,0 +1,23 @@
+PODS:
+  - FoundationSafety (0.1.0)
+  - Kiwi (2.2.4):
+    - Kiwi/SenTestingKit
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/SenTestingKit (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - FoundationSafety (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  FoundationSafety:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FoundationSafety: 97e0f086654e04a65a2659ba69da451665a6eead
+  Kiwi: c73667f2b84cbf36f1a3830267c5a4ae8dcbd8ba
+
+COCOAPODS: 0.33.1

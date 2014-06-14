@@ -7,19 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		294A94D7194C2EF300EBCECF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 294A94C5194C2EF300EBCECF /* .gitkeep */; };
-		294A94D8194C2EF300EBCECF /* NSArray+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94C8194C2EF300EBCECF /* NSArray+Safety.m */; };
-		294A94D9194C2EF300EBCECF /* NSDictionary+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94CB194C2EF300EBCECF /* NSDictionary+Safety.m */; };
-		294A94DA194C2EF300EBCECF /* NSMutableArray+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94CE194C2EF300EBCECF /* NSMutableArray+Safety.m */; };
-		294A94DB194C2EF300EBCECF /* NSMutableDictionary+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94D1194C2EF300EBCECF /* NSMutableDictionary+Safety.m */; };
-		294A94DC194C2EF300EBCECF /* NSObject+Safety.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94D4194C2EF300EBCECF /* NSObject+Safety.m */; };
-		294A94DD194C2EF300EBCECF /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 294A94D6194C2EF300EBCECF /* .gitkeep */; };
+		124DDBE37AEA4099BEE08699 /* libPods-FoundationSafety.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DFA2C6300B4403591D95336 /* libPods-FoundationSafety.a */; };
+		294A94DF194C33E300EBCECF /* NSDictionary+SafetySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 294A94DE194C33E300EBCECF /* NSDictionary+SafetySpec.m */; };
 		296C364E194C1E7700C88110 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C364D194C1E7700C88110 /* main.m */; };
 		296C3651194C1E7700C88110 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C3650194C1E7700C88110 /* AppDelegate.m */; };
 		296C3654194C1E7700C88110 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C3653194C1E7700C88110 /* ViewController.m */; };
 		296C3657194C1E7700C88110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 296C3655194C1E7700C88110 /* Main.storyboard */; };
 		296C3659194C1E7700C88110 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 296C3658194C1E7700C88110 /* Images.xcassets */; };
 		296C3665194C1E7700C88110 /* FoundationSafetyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 296C3664194C1E7700C88110 /* FoundationSafetyTests.m */; };
+		4C933EFAD19E43F79739B27A /* libPods-FoundationSafetyTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 280CB82482154A39B71CADFD /* libPods-FoundationSafetyTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,21 +26,18 @@
 			remoteGlobalIDString = 296C3647194C1E7700C88110;
 			remoteInfo = FoundationSafety;
 		};
+		29C4DC75194C356A00BABB65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 296C3640194C1E7700C88110 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 296C3647194C1E7700C88110;
+			remoteInfo = FoundationSafety;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		294A94C5194C2EF300EBCECF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		294A94C7194C2EF300EBCECF /* NSArray+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Safety.h"; sourceTree = "<group>"; };
-		294A94C8194C2EF300EBCECF /* NSArray+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safety.m"; sourceTree = "<group>"; };
-		294A94CA194C2EF300EBCECF /* NSDictionary+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safety.h"; sourceTree = "<group>"; };
-		294A94CB194C2EF300EBCECF /* NSDictionary+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safety.m"; sourceTree = "<group>"; };
-		294A94CD194C2EF300EBCECF /* NSMutableArray+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Safety.h"; sourceTree = "<group>"; };
-		294A94CE194C2EF300EBCECF /* NSMutableArray+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Safety.m"; sourceTree = "<group>"; };
-		294A94D0194C2EF300EBCECF /* NSMutableDictionary+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+Safety.h"; sourceTree = "<group>"; };
-		294A94D1194C2EF300EBCECF /* NSMutableDictionary+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+Safety.m"; sourceTree = "<group>"; };
-		294A94D3194C2EF300EBCECF /* NSObject+Safety.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Safety.h"; sourceTree = "<group>"; };
-		294A94D4194C2EF300EBCECF /* NSObject+Safety.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Safety.m"; sourceTree = "<group>"; };
-		294A94D6194C2EF300EBCECF /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		280CB82482154A39B71CADFD /* libPods-FoundationSafetyTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoundationSafetyTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		294A94DE194C33E300EBCECF /* NSDictionary+SafetySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+SafetySpec.m"; sourceTree = "<group>"; };
 		296C3648194C1E7700C88110 /* FoundationSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C364C194C1E7700C88110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296C364D194C1E7700C88110 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,6 +50,9 @@
 		296C365E194C1E7700C88110 /* FoundationSafetyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoundationSafetyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		296C3663194C1E7700C88110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		296C3664194C1E7700C88110 /* FoundationSafetyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoundationSafetyTests.m; sourceTree = "<group>"; };
+		43CFF425BC6A4A1FA07B6F3B /* Pods-FoundationSafetyTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoundationSafetyTests.xcconfig"; path = "Pods/Pods-FoundationSafetyTests.xcconfig"; sourceTree = "<group>"; };
+		6DFA2C6300B4403591D95336 /* libPods-FoundationSafety.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FoundationSafety.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDFF268CCE704AB7970EEC05 /* Pods-FoundationSafety.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoundationSafety.xcconfig"; path = "Pods/Pods-FoundationSafety.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				124DDBE37AEA4099BEE08699 /* libPods-FoundationSafety.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,86 +68,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C933EFAD19E43F79739B27A /* libPods-FoundationSafetyTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		294A94C3194C2EF300EBCECF /* Classes */ = {
+		084C9BF2F2894E0998A629AB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				294A94C4194C2EF300EBCECF /* ios */,
-				294A94D5194C2EF300EBCECF /* osx */,
+				6DFA2C6300B4403591D95336 /* libPods-FoundationSafety.a */,
+				280CB82482154A39B71CADFD /* libPods-FoundationSafetyTests.a */,
 			);
-			name = Classes;
-			path = ../../Classes;
-			sourceTree = "<group>";
-		};
-		294A94C4194C2EF300EBCECF /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				294A94C5194C2EF300EBCECF /* .gitkeep */,
-				294A94C6194C2EF300EBCECF /* NSArray+Safety */,
-				294A94C9194C2EF300EBCECF /* NSDictionary+Safety */,
-				294A94CC194C2EF300EBCECF /* NSMutableArray+Safety */,
-				294A94CF194C2EF300EBCECF /* NSMutableDictionary+Safety */,
-				294A94D2194C2EF300EBCECF /* NSObject+Safety */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		294A94C6194C2EF300EBCECF /* NSArray+Safety */ = {
-			isa = PBXGroup;
-			children = (
-				294A94C7194C2EF300EBCECF /* NSArray+Safety.h */,
-				294A94C8194C2EF300EBCECF /* NSArray+Safety.m */,
-			);
-			path = "NSArray+Safety";
-			sourceTree = "<group>";
-		};
-		294A94C9194C2EF300EBCECF /* NSDictionary+Safety */ = {
-			isa = PBXGroup;
-			children = (
-				294A94CA194C2EF300EBCECF /* NSDictionary+Safety.h */,
-				294A94CB194C2EF300EBCECF /* NSDictionary+Safety.m */,
-			);
-			path = "NSDictionary+Safety";
-			sourceTree = "<group>";
-		};
-		294A94CC194C2EF300EBCECF /* NSMutableArray+Safety */ = {
-			isa = PBXGroup;
-			children = (
-				294A94CD194C2EF300EBCECF /* NSMutableArray+Safety.h */,
-				294A94CE194C2EF300EBCECF /* NSMutableArray+Safety.m */,
-			);
-			path = "NSMutableArray+Safety";
-			sourceTree = "<group>";
-		};
-		294A94CF194C2EF300EBCECF /* NSMutableDictionary+Safety */ = {
-			isa = PBXGroup;
-			children = (
-				294A94D0194C2EF300EBCECF /* NSMutableDictionary+Safety.h */,
-				294A94D1194C2EF300EBCECF /* NSMutableDictionary+Safety.m */,
-			);
-			path = "NSMutableDictionary+Safety";
-			sourceTree = "<group>";
-		};
-		294A94D2194C2EF300EBCECF /* NSObject+Safety */ = {
-			isa = PBXGroup;
-			children = (
-				294A94D3194C2EF300EBCECF /* NSObject+Safety.h */,
-				294A94D4194C2EF300EBCECF /* NSObject+Safety.m */,
-			);
-			path = "NSObject+Safety";
-			sourceTree = "<group>";
-		};
-		294A94D5194C2EF300EBCECF /* osx */ = {
-			isa = PBXGroup;
-			children = (
-				294A94D6194C2EF300EBCECF /* .gitkeep */,
-			);
-			path = osx;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		296C363F194C1E7700C88110 = {
@@ -159,6 +90,9 @@
 				296C364A194C1E7700C88110 /* FoundationSafety */,
 				296C3661194C1E7700C88110 /* FoundationSafetyTests */,
 				296C3649194C1E7700C88110 /* Products */,
+				BDFF268CCE704AB7970EEC05 /* Pods-FoundationSafety.xcconfig */,
+				084C9BF2F2894E0998A629AB /* Frameworks */,
+				43CFF425BC6A4A1FA07B6F3B /* Pods-FoundationSafetyTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -174,7 +108,6 @@
 		296C364A194C1E7700C88110 /* FoundationSafety */ = {
 			isa = PBXGroup;
 			children = (
-				294A94C3194C2EF300EBCECF /* Classes */,
 				296C364F194C1E7700C88110 /* AppDelegate.h */,
 				296C3650194C1E7700C88110 /* AppDelegate.m */,
 				296C3652194C1E7700C88110 /* ViewController.h */,
@@ -198,6 +131,7 @@
 		296C3661194C1E7700C88110 /* FoundationSafetyTests */ = {
 			isa = PBXGroup;
 			children = (
+				294A94DE194C33E300EBCECF /* NSDictionary+SafetySpec.m */,
 				296C3664194C1E7700C88110 /* FoundationSafetyTests.m */,
 				296C3662194C1E7700C88110 /* Supporting Files */,
 			);
@@ -219,9 +153,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 296C3668194C1E7700C88110 /* Build configuration list for PBXNativeTarget "FoundationSafety" */;
 			buildPhases = (
+				E07E531D0A43422C9890BA38 /* Check Pods Manifest.lock */,
 				296C3644194C1E7700C88110 /* Sources */,
 				296C3645194C1E7700C88110 /* Frameworks */,
 				296C3646194C1E7700C88110 /* Resources */,
+				46A2BD299F4F425E8FEA0D43 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,14 +172,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 296C366B194C1E7700C88110 /* Build configuration list for PBXNativeTarget "FoundationSafetyTests" */;
 			buildPhases = (
+				2557536427B040FFB66AC77A /* Check Pods Manifest.lock */,
 				296C365A194C1E7700C88110 /* Sources */,
 				296C365B194C1E7700C88110 /* Frameworks */,
 				296C365C194C1E7700C88110 /* Resources */,
+				A19895EBAEAE4400AC07F471 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				296C3660194C1E7700C88110 /* PBXTargetDependency */,
+				29C4DC76194C356A00BABB65 /* PBXTargetDependency */,
 			);
 			name = FoundationSafetyTests;
 			productName = FoundationSafetyTests;
@@ -292,10 +231,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				294A94D7194C2EF300EBCECF /* .gitkeep in Resources */,
 				296C3657194C1E7700C88110 /* Main.storyboard in Resources */,
 				296C3659194C1E7700C88110 /* Images.xcassets in Resources */,
-				294A94DD194C2EF300EBCECF /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,18 +245,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2557536427B040FFB66AC77A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46A2BD299F4F425E8FEA0D43 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FoundationSafety-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A19895EBAEAE4400AC07F471 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-FoundationSafetyTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E07E531D0A43422C9890BA38 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		296C3644194C1E7700C88110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				296C3654194C1E7700C88110 /* ViewController.m in Sources */,
-				294A94DB194C2EF300EBCECF /* NSMutableDictionary+Safety.m in Sources */,
-				294A94DA194C2EF300EBCECF /* NSMutableArray+Safety.m in Sources */,
-				294A94DC194C2EF300EBCECF /* NSObject+Safety.m in Sources */,
 				296C3651194C1E7700C88110 /* AppDelegate.m in Sources */,
-				294A94D8194C2EF300EBCECF /* NSArray+Safety.m in Sources */,
-				294A94D9194C2EF300EBCECF /* NSDictionary+Safety.m in Sources */,
 				296C364E194C1E7700C88110 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,6 +323,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				294A94DF194C33E300EBCECF /* NSDictionary+SafetySpec.m in Sources */,
 				296C3665194C1E7700C88110 /* FoundationSafetyTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +335,11 @@
 			isa = PBXTargetDependency;
 			target = 296C3647194C1E7700C88110 /* FoundationSafety */;
 			targetProxy = 296C365F194C1E7700C88110 /* PBXContainerItemProxy */;
+		};
+		29C4DC76194C356A00BABB65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 296C3647194C1E7700C88110 /* FoundationSafety */;
+			targetProxy = 29C4DC75194C356A00BABB65 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -432,6 +433,7 @@
 		};
 		296C3669194C1E7700C88110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFF268CCE704AB7970EEC05 /* Pods-FoundationSafety.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -443,6 +445,7 @@
 		};
 		296C366A194C1E7700C88110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDFF268CCE704AB7970EEC05 /* Pods-FoundationSafety.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -454,6 +457,7 @@
 		};
 		296C366C194C1E7700C88110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CFF425BC6A4A1FA07B6F3B /* Pods-FoundationSafetyTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoundationSafety.app/FoundationSafety";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -474,6 +478,7 @@
 		};
 		296C366D194C1E7700C88110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CFF425BC6A4A1FA07B6F3B /* Pods-FoundationSafetyTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoundationSafety.app/FoundationSafety";
 				FRAMEWORK_SEARCH_PATHS = (
