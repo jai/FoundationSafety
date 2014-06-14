@@ -4,24 +4,43 @@
 [![License](https://img.shields.io/cocoapods/l/FoundationSafety.svg?style=flat)](http://cocoadocs.org/docsets/FoundationSafety)
 [![Platform](https://img.shields.io/cocoapods/p/FoundationSafety.svg?style=flat)](http://cocoadocs.org/docsets/FoundationSafety)
 
-## Usage
+A collection of categories designed to make working with Foundation collections safer.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+Who here hasn't caused a crash in production because of an out of bounds exception on an NSArray, or a valueForUndefinedKey for an NSDictionary? I'm not a huge fan of constantly having to type
 
-## Requirements
+```objc
+if (theIndexIWantToAccess < theArrayImUsing.count) {
+    //Now I'm safe
+} else {
+    //I would have crashed here
+}
+```
 
-## Installation
+Call me lazy, be a hater, just know that these categories aren't meant to replace writing correct code. These categories are predicated on the fact that *we make mistakes* and these mistakes should be learned from while not crashing production apps.
 
-FoundationSafety is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+*This means that some remote logging should probably be set up so that we can actually learn from the times these categories prevent a crash.*
 
-    pod "FoundationSafety"
+These categories currently contain safety methods for:
+- NSArray / NSMutableArray
+- NSDictionary / NSMutableDictionary
+- NSObject (just to support the items above)
 
-## Author
+Installation
+--------------
 
-Jai Govindani, jai@zodio.com
+If I've done my job and submitted this to Cocoapods, you should just be able to install with:
 
-## License
+```sh
+pod install FoundationSafety
+```
 
-FoundationSafety is available under the MIT license. See the LICENSE file for more info.
+otherwise there's always submodules :)
+
+License
+----
+
+MIT
+
+**Free Software, Hell Yeah!**
+
 
