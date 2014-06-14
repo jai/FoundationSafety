@@ -4,8 +4,6 @@
 [![License](https://img.shields.io/cocoapods/l/FoundationSafety.svg?style=flat&cache_dummy_version=1)](http://cocoadocs.org/docsets/FoundationSafety)
 [![Platform](https://img.shields.io/cocoapods/p/FoundationSafety.svg?style=flat&cache_dummy_version=1)](http://cocoadocs.org/docsets/FoundationSafety)
 
-*The images above should be valid - not sure what's going on*
-
 A collection of categories designed to make working with Foundation collections safer.
 
 Who here hasn't caused a crash in production because of an out of bounds exception on an NSArray, or a valueForUndefinedKey for an NSDictionary? I'm not a huge fan of constantly having to type
