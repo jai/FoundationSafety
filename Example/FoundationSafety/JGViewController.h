@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  JGViewController.h
 //  FoundationSafety
 //
 //  Created by Jai Govindani on 6/14/14.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface JGViewController : UIViewController
 
 @end
-

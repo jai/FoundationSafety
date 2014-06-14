@@ -1,26 +1,27 @@
 //
-//  ViewController.m
+//  JGViewController.m
 //  FoundationSafety
 //
 //  Created by Jai Govindani on 6/14/14.
 //  Copyright (c) 2014 Jai Govindani. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "JGViewController.h"
 
-@interface ViewController ()
-            
+@interface JGViewController ()
 
 @end
 
-@implementation ViewController
-            
-- (void)viewDidLoad {
+@implementation JGViewController
+
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
