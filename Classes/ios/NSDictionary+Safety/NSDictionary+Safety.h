@@ -20,6 +20,14 @@
  *  @return If there's no value at the key path, it returns an empty string @"", otherwise returns a string-formatted value
  */
 - (NSString*)stringForKeyPath:(NSString*)keyPath;
+
+/**
+ *  Retrieves an object at the specified key, and an empty string "" if the specified key is not found
+ *
+ *  @param key The key to retrieve the object from
+ *
+ *  @return The object for the specified key, if one exists. Otherwise returns an empty string ""
+ */
 - (id)safeObjectForKey:(id)key;
 
 - (NSString *)stringForKey:(NSString *)key;
