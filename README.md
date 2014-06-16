@@ -1,8 +1,8 @@
 # FoundationSafety
 
-[![Version](https://img.shields.io/cocoapods/v/FoundationSafety.svg?style=flat&cache_dummy_version=1)](http://cocoadocs.org/docsets/FoundationSafety)
-[![License](https://img.shields.io/cocoapods/l/FoundationSafety.svg?style=flat&cache_dummy_version=1)](http://cocoadocs.org/docsets/FoundationSafety)
-[![Platform](https://img.shields.io/cocoapods/p/FoundationSafety.svg?style=flat&cache_dummy_version=1)](http://cocoadocs.org/docsets/FoundationSafety)
+[![Version](https://img.shields.io/cocoapods/v/FoundationSafety.svg?style=flat)](http://cocoadocs.org/docsets/FoundationSafety)
+[![License](https://img.shields.io/cocoapods/l/FoundationSafety.svg?style=flat)](http://cocoadocs.org/docsets/FoundationSafety)
+[![Platform](https://img.shields.io/cocoapods/p/FoundationSafety.svg?style=flat)](http://cocoadocs.org/docsets/FoundationSafety)
 
 A collection of categories designed to make working with Foundation collections safer.
 
