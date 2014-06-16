@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F3C4FB48900457B9D11A872 /* libPods-FoundationSafety.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB17D2AD31C4C0F916A7188 /* libPods-FoundationSafety.a */; };
+		29025133194C764900A0D683 /* JGSwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29025132194C764900A0D683 /* JGSwiftViewController.swift */; };
 		292467D1194C3FA400E146D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292467D0194C3FA400E146D8 /* Foundation.framework */; };
 		292467D3194C3FA400E146D8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292467D2194C3FA400E146D8 /* CoreGraphics.framework */; };
 		292467D5194C3FA400E146D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 292467D4194C3FA400E146D8 /* UIKit.framework */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29025131194C764800A0D683 /* FoundationSafety-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoundationSafety-Bridging-Header.h"; sourceTree = "<group>"; };
+		29025132194C764900A0D683 /* JGSwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JGSwiftViewController.swift; sourceTree = "<group>"; };
 		292467CD194C3FA400E146D8 /* FoundationSafety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoundationSafety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		292467D0194C3FA400E146D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		292467D2194C3FA400E146D8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,6 +140,8 @@
 				292467E6194C3FA400E146D8 /* JGViewController.m */,
 				292467E8194C3FA400E146D8 /* Images.xcassets */,
 				292467D7194C3FA400E146D8 /* Supporting Files */,
+				29025132194C764900A0D683 /* JGSwiftViewController.swift */,
+				29025131194C764800A0D683 /* FoundationSafety-Bridging-Header.h */,
 			);
 			path = FoundationSafety;
 			sourceTree = "<group>";
@@ -341,6 +346,7 @@
 				292467DD194C3FA400E146D8 /* main.m in Sources */,
 				292467E7194C3FA400E146D8 /* JGViewController.m in Sources */,
 				292467E1194C3FA400E146D8 /* JGAppDelegate.m in Sources */,
+				29025133194C764900A0D683 /* JGSwiftViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,10 +475,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoundationSafety/FoundationSafety-Prefix.pch";
 				INFOPLIST_FILE = "FoundationSafety/FoundationSafety-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoundationSafety/FoundationSafety-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -483,10 +493,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FoundationSafety/FoundationSafety-Prefix.pch";
 				INFOPLIST_FILE = "FoundationSafety/FoundationSafety-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FoundationSafety/FoundationSafety-Bridging-Header.h";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
