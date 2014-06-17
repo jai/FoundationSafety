@@ -1,6 +1,8 @@
 # Uncomment this line to define a global platform for your project
 # platform :ios, '7.0'
 
+xcodeproj './FoundationSafety.xcodeproj'
+
 target "FoundationSafety" do
   pod "FoundationSafety", :path => "../"
 end

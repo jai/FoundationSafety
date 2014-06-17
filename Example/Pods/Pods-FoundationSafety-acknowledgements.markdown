@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## FoundationSafety
 
-Copyright (c) 2014 Jai Govindani <jai@zodio.com>
+Copyright (c) 2014 Jai Govindani <govindani@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
