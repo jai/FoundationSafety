@@ -30,13 +30,37 @@
  */
 - (id)safeObjectForKey:(id)key;
 
+/**
+ *  This method is meant to return an NSString object regardless of whether the JSON key exists in the dictionary or not. If the key doesn't exist, the method returns an empty string
+ *
+ *  @param key The JSON key to access
+ *
+ *  @return Returns the value for the given JSON key as an NSString. If they key doesn't exist, an empty string "" is returned
+ */
 - (NSString *)stringForKey:(NSString *)key;
+
+/**
+ *  See stringForKey:
+ *
+ *  @param key The JSON key to access
+ *
+ *  @return Returns the array at the specified key, otherwise returns nil
+ */
 - (NSArray *)arrayForKey:(NSString *)key;
+
+/**
+ *  Checks to see if the specified keypath exists without raising an exception if it doesn't
+ *
+ *  @param keyPath The keypath to check for
+ *
+ *  @return Returns YES if the keypath exists, NO if it doesn't (without raising an exception)
+ */
 - (BOOL)containsValidDataAtKeyPath:(NSString *)keyPath;
 
-
-/*!
-   Checks the current dictionary for a 'total_rows' key and returns the int value of that if it exists. If they key doesn't exist, method returns -1.
+/**
+ *  Checks for a JSON key named 'total_rows' and returns the value in the key cast as an NSInteger
+ *
+ *  @return The integer value of the 'total_rows' JSON key if it exists, -1 if it doesn't.
  */
 - (NSInteger)totalRows;
 
