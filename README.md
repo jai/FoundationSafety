@@ -28,7 +28,7 @@ These categories currently contain safety methods for:
 Installation
 --------------
 
-Default installation is of course by Cocoapods:
+Default installation is of course by CocoaPods:
 
 ```sh
 pod install FoundationSafety
